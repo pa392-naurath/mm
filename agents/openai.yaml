@@ -1,0 +1,4 @@
+interface:
+  display_name: "MallowMauve Brand"
+  short_description: "Quiet luxury web and brand guidance"
+  default_prompt: "Use $mm to shape MallowMauve website design, copy, and UI decisions into a quiet luxury brand experience."
