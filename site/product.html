@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MallowMauve | Kashmiri Gulistan Cushion</title>
+    <meta
+      name="description"
+      content="View the Kashmiri Gulistan Cushion in Indigo Bloom, with a concierge-style journey through Selections and WhatsApp."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="drawer-backdrop" data-close-drawer hidden></div>
+    <header class="site-header">
+      <div class="header-top">
+        <a class="wordmark" href="./index.html" aria-label="MallowMauve home">MallowMauve</a>
+        <div class="header-actions">
+          <button
+            class="wishlist-nav"
+            type="button"
+            data-open-drawer="wishlist"
+            aria-expanded="false"
+            aria-controls="inquiry-drawer"
+          >
+            <span>Wishlist</span>
+            <span class="wishlist-count" data-wishlist-count-nav></span>
+          </button>
+          <button
+            class="selections-nav"
+            type="button"
+            data-open-drawer="selections"
+            aria-expanded="false"
+            aria-controls="inquiry-drawer"
+          >
+            <span>Selections</span>
+            <span class="selections-count" data-inquiry-count></span>
+          </button>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="./index.html#collection">Collections</a>
+        <a href="./index.html#craft">Craft</a>
+        <a href="./index.html#whatsapp">Contact</a>
+      </nav>
+    </header>
+
+    <aside class="inquiry-drawer" id="inquiry-drawer" aria-hidden="true" aria-labelledby="inquiry-title">
+      <div class="drawer-handle" aria-hidden="true"></div>
+      <div class="drawer-header">
+        <div>
+          <p class="eyebrow">Selections</p>
+          <h2 id="inquiry-title">A quiet shortlist</h2>
+        </div>
+        <button class="drawer-close" type="button" data-close-drawer aria-label="Close selections panel">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="drawer-section" data-drawer-section="selections">
+        <p class="drawer-intro" data-selection-summary>
+          No pieces selected yet.
+        </p>
+        <div class="drawer-list" data-inquiry-list></div>
+        <p class="drawer-empty" data-inquiry-empty>
+          Selected pieces will gather here.
+        </p>
+      </div>
+
+      <div class="drawer-section drawer-section-soft" data-drawer-section="wishlist">
+        <div class="drawer-subhead">
+          <p class="eyebrow">Wishlist</p>
+          <span class="drawer-subcount" data-wishlist-count>0 saved</span>
+        </div>
+        <div class="drawer-list drawer-list-compact" data-wishlist-list></div>
+        <p class="drawer-empty" data-wishlist-empty>
+          Saved pieces rest here for later.
+        </p>
+      </div>
+
+      <div class="drawer-footer">
+        <a
+          class="button button-filled button-full"
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+          data-send-request
+        >
+          Send Request via WhatsApp
+        </a>
+      </div>
+    </aside>
+
+    <main class="detail-main">
+      <section
+        class="detail-layout reveal"
+        data-product-root
+        data-product-id="gulistan-indigo"
+        data-product-name="Kashmiri Gulistan Cushion"
+        data-product-variant="Indigo Bloom"
+        data-product-price="₹4,800"
+      >
+        <div class="detail-gallery">
+          <img
+            class="detail-primary-image"
+            src="./assets/cushion-indigo.svg"
+            alt="Kashmiri Gulistan Cushion in Indigo Bloom."
+            data-detail-main-image
+          />
+          <div class="detail-thumbnails">
+            <button
+              class="thumbnail-button is-active"
+              type="button"
+              data-thumbnail-src="./assets/cushion-indigo.svg"
+              data-thumbnail-alt="Kashmiri Gulistan Cushion in Indigo Bloom."
+            >
+              <img src="./assets/cushion-indigo.svg" alt="Indigo Bloom front view thumbnail." />
+            </button>
+            <button
+              class="thumbnail-button"
+              type="button"
+              data-thumbnail-src="./assets/cushion-indigo-closeup.svg"
+              data-thumbnail-alt="Close-up embroidery detail on the Indigo Bloom cushion."
+            >
+              <img src="./assets/cushion-indigo-closeup.svg" alt="Embroidery close-up thumbnail." />
+            </button>
+            <button
+              class="thumbnail-button"
+              type="button"
+              data-thumbnail-src="./assets/hero-scene.svg"
+              data-thumbnail-alt="The Indigo Bloom cushion styled in a softly lit room."
+            >
+              <img src="./assets/hero-scene.svg" alt="Lifestyle room view thumbnail." />
+            </button>
+          </div>
+        </div>
+
+        <div class="detail-info">
+          <p class="eyebrow">A collected piece</p>
+          <h1 class="detail-name">Kashmiri Gulistan Cushion</h1>
+          <p class="detail-variant-name">Indigo Bloom</p>
+          <p class="detail-description">
+            An indigo field of silk and floral threadwork, composed to bring depth,
+            softness, and quiet inheritance to a room.
+          </p>
+          <p class="detail-price">₹4,800</p>
+          <div class="detail-actions">
+            <button class="button button-filled" type="button" data-add-inquiry>
+              Add to Selections
+            </button>
+            <button class="text-action" type="button" data-add-wishlist>
+              Save to Wishlist
+            </button>
+          </div>
+          <p class="product-feedback product-feedback-detail" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="detail-sections reveal">
+        <article class="detail-section">
+          <p class="eyebrow">Details</p>
+          <h2>Composed for calm interiors.</h2>
+          <p>
+            A square accent cushion designed for reading rooms, bedrooms, and layered
+            living spaces where one piece is meant to quietly hold the eye.
+          </p>
+        </article>
+
+        <article class="detail-section">
+          <p class="eyebrow">Fabric &amp; Craft</p>
+          <h2>Threadwork with a slower rhythm.</h2>
+          <p>
+            Silk-blend base, Kashmiri floral embroidery, and hand-finished edges. Each
+            piece carries the small variation of human work and careful making.
+          </p>
+        </article>
+
+        <article class="detail-section">
+          <p class="eyebrow">Shipping</p>
+          <h2>Shared personally, not automatically.</h2>
+          <p>
+            Shipping timing, availability, and care notes are confirmed after your
+            request, so the experience remains guided and considered from the start.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="footer-mark">MallowMauve</span>
+      <div class="footer-links">
+        <a href="./index.html#craft">About</a>
+        <a href="./index.html#collection">Collections</a>
+        <a href="./index.html#whatsapp">Contact</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

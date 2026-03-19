@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MallowMauve | Quiet Luxury Home Decor</title>
+    <meta
+      name="description"
+      content="MallowMauve presents a quiet luxury landing page for hand-embroidered home textiles, rooted in Indian craftsmanship."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="drawer-backdrop" data-close-drawer hidden></div>
+    <header class="site-header">
+      <div class="header-top">
+        <a class="wordmark" href="#top" aria-label="MallowMauve home">MallowMauve</a>
+        <div class="header-actions">
+          <button
+            class="wishlist-nav"
+            type="button"
+            data-open-drawer="wishlist"
+            aria-expanded="false"
+            aria-controls="inquiry-drawer"
+          >
+            <span>Wishlist</span>
+            <span class="wishlist-count" data-wishlist-count-nav></span>
+          </button>
+          <button
+            class="selections-nav"
+            type="button"
+            data-open-drawer="selections"
+            aria-expanded="false"
+            aria-controls="inquiry-drawer"
+          >
+            <span>Selections</span>
+            <span class="selections-count" data-inquiry-count></span>
+          </button>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#collection">Collections</a>
+        <a href="#craft">Craft</a>
+        <a href="#whatsapp">Contact</a>
+      </nav>
+    </header>
+
+    <aside class="inquiry-drawer" id="inquiry-drawer" aria-hidden="true" aria-labelledby="inquiry-title">
+      <div class="drawer-handle" aria-hidden="true"></div>
+      <div class="drawer-header">
+        <div>
+          <p class="eyebrow">Selections</p>
+          <h2 id="inquiry-title">A quiet shortlist</h2>
+        </div>
+        <button class="drawer-close" type="button" data-close-drawer aria-label="Close selections panel">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="drawer-section" data-drawer-section="selections">
+        <p class="drawer-intro" data-selection-summary>
+          No pieces selected yet.
+        </p>
+        <div class="drawer-list" data-inquiry-list></div>
+        <p class="drawer-empty" data-inquiry-empty>
+          Selected pieces will gather here.
+        </p>
+      </div>
+
+      <div class="drawer-section drawer-section-soft" data-drawer-section="wishlist">
+        <div class="drawer-subhead">
+          <p class="eyebrow">Wishlist</p>
+          <span class="drawer-subcount" data-wishlist-count>0 saved</span>
+        </div>
+        <div class="drawer-list drawer-list-compact" data-wishlist-list></div>
+        <p class="drawer-empty" data-wishlist-empty>
+          Saved pieces rest here for later.
+        </p>
+      </div>
+
+      <div class="drawer-footer">
+        <a
+          class="button button-filled button-full"
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+          data-send-request
+        >
+          Send Request via WhatsApp
+        </a>
+      </div>
+    </aside>
+
+    <main id="top">
+      <section class="hero reveal">
+        <div class="hero-panel">
+          <img
+            class="hero-image"
+            src="./assets/hero-scene.svg"
+            alt="A softly lit interior scene with embroidered cushions arranged on a wooden bench."
+          />
+          <div class="hero-copy">
+            <h1>A Curation of Quiet Luxury</h1>
+            <p class="hero-text">
+              Handcrafted elegance, reserved for a discerning few
+            </p>
+            <a
+              class="button button-filled"
+              href="https://api.whatsapp.com/send?text=Hello%20MallowMauve%2C%20I%20would%20love%20to%20know%20more%20about%20your%20collection."
+              target="_blank"
+              rel="noreferrer"
+              >Connect on WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-heading reveal" id="collection">
+        <p class="eyebrow">Collections Preview</p>
+        <h2>Featured pieces, quietly presented.</h2>
+        <p>
+          A restrained introduction to the opening collection of hand-embroidered
+          Kashmiri cushions.
+        </p>
+      </section>
+
+      <section class="product-grid">
+        <article
+          class="product-card reveal"
+          data-product-root
+          data-product-id="gulistan-indigo"
+          data-product-name="Kashmiri Gulistan Cushion"
+          data-product-variant="Indigo Bloom"
+          data-product-price="₹4,800"
+        >
+          <img
+            src="./assets/cushion-indigo.svg"
+            alt="Indigo embroidered cushion with floral vine motifs."
+          />
+          <div class="product-copy">
+            <h3>Kashmiri Gulistan Cushion</h3>
+            <p class="product-variant">Indigo Bloom</p>
+            <p class="product-price">₹4,800</p>
+            <div class="product-actions">
+              <button class="button button-soft" type="button" data-add-inquiry>
+                Add to Selections
+              </button>
+              <button class="text-action" type="button" data-add-wishlist>
+                Save to Wishlist
+              </button>
+            </div>
+            <p class="product-feedback" aria-live="polite"></p>
+          </div>
+        </article>
+
+        <article
+          class="product-card reveal"
+          data-product-root
+          data-product-id="millefiori-blush"
+          data-product-name="Mughal Millefiori Cushion"
+          data-product-variant="Blush"
+          data-product-price="₹5,200"
+        >
+          <img
+            src="./assets/cushion-blush.svg"
+            alt="Blush embroidered cushion with delicate multicolored floral motifs."
+          />
+          <div class="product-copy">
+            <h3>Mughal Millefiori Cushion</h3>
+            <p class="product-variant">Blush</p>
+            <p class="product-price">₹5,200</p>
+            <div class="product-actions">
+              <button class="button button-soft" type="button" data-add-inquiry>
+                Add to Selections
+              </button>
+              <button class="text-action" type="button" data-add-wishlist>
+                Save to Wishlist
+              </button>
+            </div>
+            <p class="product-feedback" aria-live="polite"></p>
+          </div>
+        </article>
+
+        <article
+          class="product-card reveal"
+          data-product-root
+          data-product-id="sozni-ivory"
+          data-product-name="Silk Sozni Embroidered Cushion"
+          data-product-variant="Ivory"
+          data-product-price="₹6,000"
+        >
+          <img
+            src="./assets/cushion-ivory.svg"
+            alt="Ivory embroidered cushion with soft pink and green floral detailing."
+          />
+          <div class="product-copy">
+            <h3>Silk Sozni Embroidered Cushion</h3>
+            <p class="product-variant">Ivory</p>
+            <p class="product-price">₹6,000</p>
+            <div class="product-actions">
+              <button class="button button-soft" type="button" data-add-inquiry>
+                Add to Selections
+              </button>
+              <button class="text-action" type="button" data-add-wishlist>
+                Save to Wishlist
+              </button>
+            </div>
+            <p class="product-feedback" aria-live="polite"></p>
+          </div>
+        </article>
+      </section>
+
+      <section class="craft-section reveal" id="craft">
+        <p class="eyebrow">Craft</p>
+        <h2>Made slowly, meant to remain.</h2>
+        <p class="craft-text">
+          Each cushion begins in the language of handwork, where thread, patience,
+          and memory meet. The result is not ornament alone, but a quiet object with
+          the softness of inheritance and the grace of time.
+        </p>
+      </section>
+
+      <section class="whatsapp-section reveal" id="whatsapp">
+        <div class="whatsapp-inner">
+          <p class="eyebrow">WhatsApp</p>
+          <h2>A personal way to acquire each piece.</h2>
+          <p>
+            Every purchase begins as a private conversation, with guidance offered
+            personally and at an unhurried pace.
+          </p>
+          <div class="whatsapp-actions">
+            <button class="button button-soft" type="button" data-open-drawer>
+              Enquire Privately
+            </button>
+            <button class="button button-filled" type="button" data-open-drawer="selections">
+              View Selections
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="footer-mark">MallowMauve</span>
+      <div class="footer-links">
+        <a href="#craft">About</a>
+        <a href="#collection">Collections</a>
+        <a href="#whatsapp">Contact</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
