@@ -2,11 +2,15 @@
 
 import { CommerceProvider } from "@/components/providers/commerce-provider";
 import { PostHogProvider } from "@/components/providers/posthog-provider";
+import { RouteBodyClasses } from "@/components/providers/route-body-classes";
 
 export const SiteProviders = ({ children }: { children: React.ReactNode }) => {
   return (
     <PostHogProvider>
-      <CommerceProvider>{children}</CommerceProvider>
+      <CommerceProvider>
+        <RouteBodyClasses />
+        {children}
+      </CommerceProvider>
     </PostHogProvider>
   );
 };
