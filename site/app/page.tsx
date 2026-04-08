@@ -15,7 +15,7 @@ export default async function HomePage() {
   return (
     <>
       <div className="atmosphere" aria-hidden="true"></div>
-      <SiteHeader />
+      <SiteHeader variant="home" />
       <main className="home-main collections-home" id="top">
         <section className="master-hero">
           <div className="master-hero-shell">

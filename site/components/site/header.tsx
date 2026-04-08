@@ -3,8 +3,8 @@ import Link from "next/link";
 import { publicConfig } from "@/lib/content/public-config";
 import { HeaderActions } from "@/components/site/header-actions";
 
-export const SiteHeader = () => (
-  <header className="site-header">
+export const SiteHeader = ({ variant = "default" }: { variant?: "default" | "home" }) => (
+  <header className={`site-header${variant === "home" ? " site-header--home" : ""}`}>
     <div className="header-top">
       <Link className="brand-logo" href="/" aria-label="MallowMauve home">
         <img
