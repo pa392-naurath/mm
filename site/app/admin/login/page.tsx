@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { getSupabaseBrowserClient } from "@/lib/supabase/browser";
+import { publicEnv } from "@/lib/utils/public-env";
 
 export default function AdminLoginPage() {
   const [email, setEmail] = useState("");
@@ -27,7 +28,7 @@ export default function AdminLoginPage() {
             const { error } = await supabase.auth.signInWithOtp({
               email,
               options: {
-                emailRedirectTo: `${window.location.origin}/auth/callback`,
+                emailRedirectTo: `${publicEnv.siteUrl}/auth/callback`,
               },
             });
 
