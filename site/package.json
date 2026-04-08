@@ -1,0 +1,33 @@
+{
+  "name": "mallowmauve-site",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "db:seed-admin": "node ./supabase/seed/bootstrap-admin.mjs",
+    "ops:preflight": "node ./scripts/preflight.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.49.8",
+    "next": "^15.3.0",
+    "posthog-js": "^1.244.0",
+    "posthog-node": "^5.8.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "BC-001",
+    "collectionSlug": "bed-covers",
+    "name": " Zarbaft Bed Cover",
+    "variant": "Ma Mist",
+    "price": 8299,
+    "currency": "INR",
+    "story": "An ivory bedcover adorned with rich crimson Kashmiri floral embroidery, bringing timeless elegance and refined warmth to the bedroom.",
+    "description": "An ivory bedcover with crimson Kashmiri florals, adding warmth and understated elegance.",
+    "material": "Cotton base with Kashmiri embroidery",
+    "dimensions": "100 x 104 inches",
+    "lifestyleImage": "/public/media/products/bed-covers/BC-001/lifestyle.png",
+    "studioImage": "/public/media/products/bed-covers/BC-001/studio.png",
+    "whatsappLabel": "Zarbaft Bed Cover",
+    "status": "active",
+    "order": 1
+  },
+  {
+    "id": "BC-002",
+    "collectionSlug": "bed-covers",
+    "name": "Mehr-e-Chinar Bed Cover",
+    "variant": "Ivory Bloom",
+    "price": 8299,
+    "currency": "INR",
+    "story": "An ivory bedcover with serene blue Kashmiri embroidery, bringing softness, elegance, and timeless charm to the bedroom.",
+    "description": "An ivory bedcover with blue Kashmiri embroidery, bringing refined luxury and timeless grace.",
+    "material": "Cotton base with Kashmiri embroidery",
+    "dimensions": "100 x 104 inches",
+    "lifestyleImage": "/public/media/products/bed-covers/BC-002/lifestyle.png",
+    "studioImage": "/public/media/products/bed-covers/BC-002/studio.png",
+    "whatsappLabel": "Mehr-e-Chinar Bed Cover",
+    "status": "active",
+    "order": 2
+  },
+  {
+    "id": "BC-003",
+    "collectionSlug": "bed-covers",
+    "name": "Rangmahal Bed Cover",
+    "variant": "Ivory Bloom",
+    "price": 8299,
+    "currency": "INR",
+    "story": "An ivory bedcover with delicate multicolour Kashmiri embroidery, bringing timeless elegance and artisanal luxury to the bedroom.",
+    "description": "An ivory bedcover with multicolour Kashmiri embroidery, bringing refined luxury and timeless grace.",
+    "material": "Cotton base with Kashmiri embroidery",
+    "dimensions": "100 x 104 inches",
+    "lifestyleImage": "/public/media/products/bed-covers/BC-003/lifestyle.png",
+    "studioImage": "/public/media/products/bed-covers/BC-003/studio.png",
+    "whatsappLabel": "Rangmahal Bed Cover \u2014 Ivory Bloom",
+    "status": "active",
+    "order": 3
+  }
+]

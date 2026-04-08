@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "bed-covers",
+    "order": 1,
+    "title": "Bed Covers",
+    "label": "COLLECTION 01",
+    "story": "Broader layers composed for beds, dayrooms, and slower afternoons.",
+    "heroImageDesktop": "/public/media/collections/bed-covers/hero-desktop.png",
+    "heroImageMobile": "/public/media/collections/bed-covers/hero-mobile.png",
+    "heroObjectPositionDesktop": "58% 52%",
+    "heroObjectPositionMobile": "52% 56%",
+    "textAlign": "left"
+  },
+  {
+    "slug": "bed-runners",
+    "order": 2,
+    "title": "Bed Runners",
+    "label": "COLLECTION 02",
+    "story": "Measured bands of embroidery composed for the foot of the bed.",
+    "heroImageDesktop": "/public/media/collections/bed-runners/hero-desktop.png",
+    "heroImageMobile": "/public/media/collections/bed-runners/hero-mobile.jpeg",
+    "heroObjectPositionDesktop": "50% 60%",
+    "heroObjectPositionMobile": "50% 64%",
+    "textAlign": "right"
+  },
+  {
+    "slug": "cushions",
+    "order": 3,
+    "title": "Cushions",
+    "label": "COLLECTION 03",
+    "story": "Hand-finished accents composed for intimate living.",
+    "heroImageDesktop": "/public/media/collections/cushions/hero-desktop.png",
+    "heroImageMobile": "/public/media/collections/cushions/hero-mobile.JPG",
+    "heroObjectPositionDesktop": "54% 48%",
+    "heroObjectPositionMobile": "50% 50%",
+    "textAlign": "left"
+  },
+  {
+    "slug": "rugs",
+    "order": 4,
+    "title": "Rugs",
+    "label": "COLLECTION 04",
+    "story": "Grounded in texture, warmth, and regional memory.",
+    "heroImageDesktop": "/public/media/collections/rugs/hero-desktop.png",
+    "heroImageMobile": "/public/media/collections/rugs/hero-mobile.png",
+    "heroObjectPositionDesktop": "50% 58%",
+    "heroObjectPositionMobile": "50% 60%",
+    "textAlign": "right"
+  },
+  {
+    "slug": "table-runners",
+    "order": 5,
+    "title": "Table Runners",
+    "label": "COLLECTION 05",
+    "story": "Composed for gathering, ritual, and quiet hosting.",
+    "heroImageDesktop": "/public/media/collections/table-runners/hero-desktop.png",
+    "heroImageMobile": "/public/media/collections/table-runners/hero-mobile.jpeg",
+    "heroObjectPositionDesktop": "52% 52%",
+    "heroObjectPositionMobile": "50% 54%",
+    "textAlign": "left"
+  },
+  {
+    "slug": "tapestry",
+    "order": 6,
+    "title": "Tapestry",
+    "label": "COLLECTION 06",
+    "story": "Textile art composed for the wall.",
+    "heroImageDesktop": "/public/media/collections/tapestry/hero-desktop.png",
+    "heroImageMobile": "/public/media/collections/tapestry/hero-mobile.png",
+    "heroObjectPositionDesktop": "50% 50%",
+    "heroObjectPositionMobile": "50% 52%",
+    "textAlign": "right"
+  }
+]

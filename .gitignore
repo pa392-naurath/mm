@@ -1,3 +1,8 @@
 .DS_Store
 MallowMauve
 MallowMauve.pub
+site/node_modules/
+site/.next/
+site/.env.local
+site/.env*.local
+site/tsconfig.tsbuildinfo

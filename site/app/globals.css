@@ -1,0 +1,10 @@
+@import "../styles.css";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body.next-app {
+  min-height: 100vh;
+}

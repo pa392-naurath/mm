@@ -1,0 +1,53 @@
+[
+  {
+    "id": "RG-001",
+    "collectionSlug": "rugs",
+    "name": "Aks-e-Hunar",
+    "variant": "Rose Mist",
+    "price": 5999,
+    "currency": "INR",
+    "story": "A refined modern form infused with artful expression, offering character, depth, and a quietly sophisticated presence.",
+    "description": "Artful expression in modern form.",
+    "material": "Cotton base with Kashmiri embroidery",
+    "dimensions": "36 x 24 inches",
+    "lifestyleImage": "/public/media/products/rugs/RG-001/lifestyle.jpeg",
+    "studioImage": "/public/media/products/rugs/RG-001/studio.jpeg",
+    "whatsappLabel": "Aks-e-Hunar Rug",
+    "status": "active",
+    "order": 1
+  },
+  {
+    "id": "RG-002",
+    "collectionSlug": "rugs",
+    "name": "Rangrez",
+    "variant": "Ivory Bloom",
+    "price": 8999,
+    "currency": "INR",
+    "story": "Rich hues come together in striking harmony, enveloping the piece in depth, refinement, and an unmistakable sense of elegance.",
+    "description": "Rich hues come together in striking harmony.",
+    "material": "Cotton base with Kashmiri embroidery",
+    "dimensions": "36 x 60 inches",
+    "lifestyleImage": "/public/media/products/rugs/RG-002/lifestyle.jpeg",
+    "studioImage": "/public/media/products/rugs/RG-002/studio.jpeg",
+    "whatsappLabel": "Rangrez Rug",
+    "status": "active",
+    "order": 2
+  },
+  {
+    "id": "RG-003",
+    "collectionSlug": "rugs",
+    "name": "Gulzar",
+    "variant": "Ivory Bloom",
+    "price": 8999,
+    "currency": "INR",
+    "story": "A poetic abstract design in golden tones, layered with warmth and expressive beauty.",
+    "description": "An abstract bloom rendered in golden tones.",
+    "material": "Linen-cotton blend with hand embroidery",
+    "dimensions": "36 x 60 inches",
+    "lifestyleImage": "/public/media/products/rugs/RG-003/lifestyle.jpeg",
+    "studioImage": "/public/media/products/rugs/RG-003/studio.jpeg",
+    "whatsappLabel": "Gulzar Rug",
+    "status": "active",
+    "order": 3
+  }
+]

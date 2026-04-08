@@ -3,19 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MallowMauve | Kashmiri Gulistan Cushion</title>
+    <title>MallowMauve | Product</title>
     <meta
       name="description"
-      content="View the Kashmiri Gulistan Cushion in Indigo Bloom, with a concierge-style journey through Selections and WhatsApp."
+      content="View a MallowMauve textile piece through a concierge-style journey backed by the structured collection content."
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260408-backlink1" />
   </head>
-  <body>
+  <body class="product-page">
     <div class="atmosphere" aria-hidden="true"></div>
     <div class="drawer-backdrop" data-close-drawer hidden></div>
     <header class="site-header">
       <div class="header-top">
-        <a class="wordmark" href="./index.html" aria-label="MallowMauve home">MallowMauve</a>
+        <a class="brand-logo" href="./index.html" aria-label="MallowMauve home">
+          <img
+            class="brand-logo-image"
+            src="./public/brand/mallowmauve-logo.png"
+            alt=""
+            width="721"
+            height="548"
+          />
+        </a>
+        <a class="wordmark" href="./index.html" aria-label="MallowMauve home">
+          <img
+            class="wordmark-image"
+            src="./public/brand/mallowmauve-wordmark.png"
+            alt=""
+            width="1768"
+            height="233"
+          />
+        </a>
         <div class="header-actions">
           <button
             class="wishlist-nav"
@@ -40,9 +57,9 @@
         </div>
       </div>
       <nav class="site-nav" aria-label="Primary">
-        <a href="./index.html#collection">Collections</a>
-        <a href="./index.html#craft">Craft</a>
-        <a href="./index.html#whatsapp">Contact</a>
+        <a href="./index.html#collections">Collections</a>
+        <a href="./index.html#our-story">Our Story</a>
+        <a href="./index.html#contact">Contact</a>
       </nav>
     </header>
 
@@ -93,110 +110,27 @@
       </div>
     </aside>
 
-    <main class="detail-main">
-      <section
-        class="detail-layout reveal"
-        data-product-root
-        data-product-id="gulistan-indigo"
-        data-product-name="Kashmiri Gulistan Cushion"
-        data-product-variant="Indigo Bloom"
-        data-product-price="₹4,800"
-      >
-        <div class="detail-gallery">
-          <img
-            class="detail-primary-image"
-            src="./assets/cushion-indigo.svg"
-            alt="Kashmiri Gulistan Cushion in Indigo Bloom."
-            data-detail-main-image
-          />
-          <div class="detail-thumbnails">
-            <button
-              class="thumbnail-button is-active"
-              type="button"
-              data-thumbnail-src="./assets/cushion-indigo.svg"
-              data-thumbnail-alt="Kashmiri Gulistan Cushion in Indigo Bloom."
-            >
-              <img src="./assets/cushion-indigo.svg" alt="Indigo Bloom front view thumbnail." />
-            </button>
-            <button
-              class="thumbnail-button"
-              type="button"
-              data-thumbnail-src="./assets/cushion-indigo-closeup.svg"
-              data-thumbnail-alt="Close-up embroidery detail on the Indigo Bloom cushion."
-            >
-              <img src="./assets/cushion-indigo-closeup.svg" alt="Embroidery close-up thumbnail." />
-            </button>
-            <button
-              class="thumbnail-button"
-              type="button"
-              data-thumbnail-src="./assets/hero-scene.svg"
-              data-thumbnail-alt="The Indigo Bloom cushion styled in a softly lit room."
-            >
-              <img src="./assets/hero-scene.svg" alt="Lifestyle room view thumbnail." />
-            </button>
-          </div>
-        </div>
-
-        <div class="detail-info">
-          <p class="eyebrow">A collected piece</p>
-          <h1 class="detail-name">Kashmiri Gulistan Cushion</h1>
-          <p class="detail-variant-name">Indigo Bloom</p>
-          <p class="detail-description">
-            An indigo field of silk and floral threadwork, composed to bring depth,
-            softness, and quiet inheritance to a room.
-          </p>
-          <p class="detail-price">₹4,800</p>
-          <div class="detail-actions">
-            <button class="button button-filled" type="button" data-add-inquiry>
-              Add to Selections
-            </button>
-            <button class="text-action" type="button" data-add-wishlist>
-              Save to Wishlist
-            </button>
-          </div>
-          <p class="product-feedback product-feedback-detail" aria-live="polite"></p>
-        </div>
-      </section>
-
-      <section class="detail-sections reveal">
-        <article class="detail-section">
-          <p class="eyebrow">Details</p>
-          <h2>Composed for calm interiors.</h2>
-          <p>
-            A square accent cushion designed for reading rooms, bedrooms, and layered
-            living spaces where one piece is meant to quietly hold the eye.
-          </p>
-        </article>
-
-        <article class="detail-section">
-          <p class="eyebrow">Fabric &amp; Craft</p>
-          <h2>Threadwork with a slower rhythm.</h2>
-          <p>
-            Silk-blend base, Kashmiri floral embroidery, and hand-finished edges. Each
-            piece carries the small variation of human work and careful making.
-          </p>
-        </article>
-
-        <article class="detail-section">
-          <p class="eyebrow">Shipping</p>
-          <h2>Shared personally, not automatically.</h2>
-          <p>
-            Shipping timing, availability, and care notes are confirmed after your
-            request, so the experience remains guided and considered from the start.
-          </p>
-        </article>
-      </section>
-    </main>
+    <main class="detail-main" data-product-detail-page></main>
 
     <footer class="site-footer">
-      <span class="footer-mark">MallowMauve</span>
+      <span class="footer-mark">
+        <img
+          class="footer-wordmark-image"
+          src="./public/brand/mallowmauve-wordmark.png"
+          alt="MallowMauve"
+          width="1768"
+          height="233"
+        />
+      </span>
       <div class="footer-links">
-        <a href="./index.html#craft">About</a>
-        <a href="./index.html#collection">Collections</a>
-        <a href="./index.html#whatsapp">Contact</a>
+        <a href="./index.html#our-story">Our Story</a>
+        <a href="./index.html#collections">Collections</a>
+        <a href="./index.html#contact">Contact</a>
       </div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script defer src="/collection-data.js"></script>
+    <script defer src="/experience.js"></script>
+    <script defer src="./script.js"></script>
   </body>
 </html>

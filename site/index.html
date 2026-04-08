@@ -8,14 +8,32 @@
       name="description"
       content="MallowMauve presents a quiet luxury landing page for hand-embroidered home textiles, rooted in Indian craftsmanship."
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preload" as="image" href="/public/collections/master-hero.jpg" />
+    <link rel="stylesheet" href="./styles.css?v=20260408-backlink1" />
   </head>
-  <body>
+  <body class="home-page">
     <div class="atmosphere" aria-hidden="true"></div>
     <div class="drawer-backdrop" data-close-drawer hidden></div>
     <header class="site-header">
       <div class="header-top">
-        <a class="wordmark" href="#top" aria-label="MallowMauve home">MallowMauve</a>
+        <a class="brand-logo" href="#top" aria-label="MallowMauve home">
+          <img
+            class="brand-logo-image"
+            src="./public/brand/mallowmauve-logo.png"
+            alt=""
+            width="721"
+            height="548"
+          />
+        </a>
+        <a class="wordmark" href="#top" aria-label="MallowMauve home">
+          <img
+            class="wordmark-image"
+            src="./public/brand/mallowmauve-wordmark.png"
+            alt=""
+            width="1768"
+            height="233"
+          />
+        </a>
         <div class="header-actions">
           <button
             class="wishlist-nav"
@@ -40,9 +58,9 @@
         </div>
       </div>
       <nav class="site-nav" aria-label="Primary">
-        <a href="#collection">Collections</a>
-        <a href="#craft">Craft</a>
-        <a href="#whatsapp">Contact</a>
+        <a href="#collections">Collections</a>
+        <a href="#our-story">Our Story</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -93,164 +111,213 @@
       </div>
     </aside>
 
-    <main id="top">
-      <section class="hero reveal">
-        <div class="hero-panel">
-          <img
-            class="hero-image"
-            src="./assets/hero-scene.svg"
-            alt="A softly lit interior scene with embroidered cushions arranged on a wooden bench."
-          />
-          <div class="hero-copy">
+    <main class="home-main collections-home" id="top">
+      <section class="master-hero" data-master-hero>
+        <div class="master-hero-shell">
+          <div class="master-hero-media">
+            <img
+              class="master-hero-image"
+              src="./public/collections/master-hero.jpg"
+              alt="A softly lit interior with embroidered cushions and layered textiles."
+              style="object-position: center center;"
+            />
+          </div>
+          <div class="master-hero-overlay" aria-hidden="true"></div>
+          <div class="master-hero-copy">
+            <p class="eyebrow">Collections</p>
             <h1>A Curation of Quiet Luxury</h1>
             <p class="hero-text">
-              Handcrafted elegance, reserved for a discerning few
+              Textiles for rooms, rituals, and quieter living, composed with warmth,
+              craftsmanship, and a slower sense of home.
             </p>
-            <a
-              class="button button-filled"
-              href="https://api.whatsapp.com/send?text=Hello%20MallowMauve%2C%20I%20would%20love%20to%20know%20more%20about%20your%20collection."
-              target="_blank"
-              rel="noreferrer"
-              >Connect on WhatsApp</a
-            >
+            <div class="hero-actions">
+              <a class="button button-filled" href="#collections">Explore Collections</a>
+              <a
+                class="button button-outline-light"
+                href="https://wa.me/919990709988?text=Hello%2C%20I%20would%20like%20to%20learn%20more%20about%20MallowMauve%20collections.%20Kindly%20assist."
+                target="_blank"
+                rel="noreferrer"
+              >
+                Connect on WhatsApp
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section-heading reveal" id="collection">
-        <p class="eyebrow">Collections Preview</p>
-        <h2>Featured pieces, quietly presented.</h2>
-        <p>
-          A restrained introduction to the opening collection of hand-embroidered
-          Kashmiri cushions.
-        </p>
+      <section class="collection-led-intro reveal" id="our-story" data-craft-intro>
+        <div class="collection-led-intro-media" data-craft-intro-media aria-hidden="true"></div>
+        <div class="collection-led-intro-overlay" aria-hidden="true"></div>
+        <div class="media-brand-badge collection-led-intro__brand-badge" aria-hidden="true">
+          <img
+            src="./public/brand/mallowmauve-logo.png"
+            alt=""
+            width="721"
+            height="548"
+          />
+        </div>
+        <div class="section-shell section-shell-narrow collection-led-intro-shell">
+          <p class="eyebrow collection-led-brandline collection-led-brandline-wordmark">
+            <span>The House of</span>
+            <img
+              class="collection-led-wordmark"
+              src="./public/brand/mallowmauve-wordmark.png"
+              alt="MallowMauve"
+              width="1768"
+              height="233"
+            />
+          </p>
+          <h2>Born on the winding roads of India.</h2>
+          <p class="section-lead collection-led-story-intro">
+            As daughters of bureaucratic families, our childhoods were defined by
+            changing horizons and an education in artistry. From the weight of
+            authentic silks to the precision of hand embroidery, we developed a
+            profound reverence for the heritage tucked away in every corner of the
+            country.
+          </p>
+          <div class="collection-led-story-grid">
+            <article class="collection-led-story-card">
+              <h3>From Journeys to Sanctuaries</h3>
+              <p>
+                As we transitioned into motherhood, our focus shifted to the
+                sanctuaries we built for our families. We sought pieces that mirrored
+                our own lives: sophisticated and minimalist, yet infused with the
+                warmth of tradition.
+              </p>
+            </article>
+            <article class="collection-led-story-card">
+              <h3>The Essence</h3>
+              <p>
+                Founded by Parul and Arooshi, MallowMauve is a bridge between
+                storied Indian craftsmanship and the refined elegance of modern
+                living. We bring artisanal textiles into a contemporary, luxurious
+                light. Every thread tells a story, every design is a homecoming.
+              </p>
+            </article>
+          </div>
+          <p class="collection-led-story-welcome">
+            <span>Welcome to</span>
+            <img
+              class="collection-led-wordmark collection-led-wordmark-welcome"
+              src="./public/brand/mallowmauve-wordmark.png"
+              alt="MallowMauve"
+              width="1768"
+              height="233"
+            />
+          </p>
+          <div class="collection-led-list" id="collections" data-collection-links></div>
+        </div>
       </section>
 
-      <section class="product-grid">
-        <article
-          class="product-card reveal"
-          data-product-root
-          data-product-id="gulistan-indigo"
-          data-product-name="Kashmiri Gulistan Cushion"
-          data-product-variant="Indigo Bloom"
-          data-product-price="₹4,800"
-        >
-          <img
-            src="./assets/cushion-indigo.svg"
-            alt="Indigo embroidered cushion with floral vine motifs."
-          />
-          <div class="product-copy">
-            <h3>Kashmiri Gulistan Cushion</h3>
-            <p class="product-variant">Indigo Bloom</p>
-            <p class="product-price">₹4,800</p>
-            <div class="product-actions">
-              <button class="button button-soft" type="button" data-add-inquiry>
-                Add to Selections
-              </button>
-              <button class="text-action" type="button" data-add-wishlist>
-                Save to Wishlist
-              </button>
-            </div>
-            <p class="product-feedback" aria-live="polite"></p>
-          </div>
-        </article>
+      <div class="collection-worlds" data-collections-home></div>
 
-        <article
-          class="product-card reveal"
-          data-product-root
-          data-product-id="millefiori-blush"
-          data-product-name="Mughal Millefiori Cushion"
-          data-product-variant="Blush"
-          data-product-price="₹5,200"
-        >
-          <img
-            src="./assets/cushion-blush.svg"
-            alt="Blush embroidered cushion with delicate multicolored floral motifs."
-          />
-          <div class="product-copy">
-            <h3>Mughal Millefiori Cushion</h3>
-            <p class="product-variant">Blush</p>
-            <p class="product-price">₹5,200</p>
-            <div class="product-actions">
-              <button class="button button-soft" type="button" data-add-inquiry>
-                Add to Selections
-              </button>
-              <button class="text-action" type="button" data-add-wishlist>
-                Save to Wishlist
-              </button>
-            </div>
-            <p class="product-feedback" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article
-          class="product-card reveal"
-          data-product-root
-          data-product-id="sozni-ivory"
-          data-product-name="Silk Sozni Embroidered Cushion"
-          data-product-variant="Ivory"
-          data-product-price="₹6,000"
-        >
-          <img
-            src="./assets/cushion-ivory.svg"
-            alt="Ivory embroidered cushion with soft pink and green floral detailing."
-          />
-          <div class="product-copy">
-            <h3>Silk Sozni Embroidered Cushion</h3>
-            <p class="product-variant">Ivory</p>
-            <p class="product-price">₹6,000</p>
-            <div class="product-actions">
-              <button class="button button-soft" type="button" data-add-inquiry>
-                Add to Selections
-              </button>
-              <button class="text-action" type="button" data-add-wishlist>
-                Save to Wishlist
-              </button>
-            </div>
-            <p class="product-feedback" aria-live="polite"></p>
-          </div>
-        </article>
-      </section>
-
-      <section class="craft-section reveal" id="craft">
-        <p class="eyebrow">Craft</p>
-        <h2>Made slowly, meant to remain.</h2>
-        <p class="craft-text">
-          Each cushion begins in the language of handwork, where thread, patience,
-          and memory meet. The result is not ornament alone, but a quiet object with
-          the softness of inheritance and the grace of time.
-        </p>
-      </section>
-
-      <section class="whatsapp-section reveal" id="whatsapp">
+      <section class="whatsapp-section whatsapp-section-editorial reveal" id="whatsapp">
         <div class="whatsapp-inner">
-          <p class="eyebrow">WhatsApp</p>
-          <h2>A personal way to acquire each piece.</h2>
+          <p class="eyebrow">Concierge Purchase</p>
+          <h2>Selections gather quietly. Requests begin personally.</h2>
           <p>
-            Every purchase begins as a private conversation, with guidance offered
-            personally and at an unhurried pace.
+            Build a private shortlist, then move into WhatsApp when you are ready
+            for guidance, availability, and a slower exchange.
           </p>
           <div class="whatsapp-actions">
-            <button class="button button-soft" type="button" data-open-drawer>
-              Enquire Privately
-            </button>
+            <a
+              class="button button-soft"
+              href="https://wa.me/919990709988?text=Hello%2C%20I%20would%20like%20to%20learn%20more%20about%20MallowMauve%20collections.%20Kindly%20assist."
+              target="_blank"
+              rel="noreferrer"
+              >Enquire Privately</a
+            >
             <button class="button button-filled" type="button" data-open-drawer="selections">
               View Selections
             </button>
           </div>
         </div>
       </section>
+
+      <section class="contact-section reveal" id="contact">
+        <div class="contact-shell">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Begin a quieter conversation with MallowMauve.</h2>
+            <p>
+              Share what you would like to enquire about and we will return with
+              availability, guidance, and a considered response within 24 hours.
+            </p>
+            <div class="contact-details">
+              <div class="contact-detail">
+                <span>Email</span>
+                <a href="mailto:info@mallowmauve.com">info@mallowmauve.com</a>
+              </div>
+              <div class="contact-detail">
+                <span>Phone</span>
+                <a href="tel:+919990709988">+91-9990709988</a>
+              </div>
+              <div class="contact-detail">
+                <span>Work Timings</span>
+                <p>11am to 6pm, Monday to Saturday</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <p class="eyebrow">Inquiry Form</p>
+            <form class="contact-form" data-contact-form>
+              <div class="contact-form-grid">
+                <div class="contact-field">
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" name="name" type="text" autocomplete="name" required />
+                </div>
+                <div class="contact-field">
+                  <label for="contact-phone">Contact Details</label>
+                  <input id="contact-phone" name="contact" type="text" autocomplete="tel" required />
+                </div>
+                <div class="contact-field">
+                  <label for="contact-email">Email</label>
+                  <input id="contact-email" name="email" type="email" autocomplete="email" required />
+                </div>
+                <div class="contact-field">
+                  <label for="contact-location">Location</label>
+                  <input id="contact-location" name="location" type="text" autocomplete="address-level2" required />
+                </div>
+                <div class="contact-field contact-field--full">
+                  <label for="contact-note">Inquiry Note</label>
+                  <textarea
+                    id="contact-note"
+                    name="note"
+                    placeholder="Tell us what you would like to enquire about."
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <button class="button button-filled" type="submit">Send Inquiry</button>
+              <p class="contact-feedback" data-contact-feedback aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-      <span class="footer-mark">MallowMauve</span>
+      <span class="footer-mark">
+        <img
+          class="footer-wordmark-image"
+          src="./public/brand/mallowmauve-wordmark.png"
+          alt="MallowMauve"
+          width="1768"
+          height="233"
+        />
+      </span>
       <div class="footer-links">
-        <a href="#craft">About</a>
-        <a href="#collection">Collections</a>
-        <a href="#whatsapp">Contact</a>
+        <a href="#our-story">Our Story</a>
+        <a href="#collections">Collections</a>
+        <a href="#contact">Contact</a>
       </div>
     </footer>
-
-    <script src="./script.js"></script>
+    <script defer src="/collection-data.js"></script>
+    <script defer src="/experience.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script defer src="./script.js"></script>
   </body>
 </html>
